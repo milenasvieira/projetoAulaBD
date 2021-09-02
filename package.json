@@ -1,0 +1,23 @@
+{
+  "name": "gama-xp-app",
+  "version": "1.0.0",
+  "description": "sistema de pedido",
+  "main": "dist/server.js",
+  "author": "Milena Vieira",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts",
+    "type": "module"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.95.10",
+    "mysql2": "^2.3.0",
+    "typeorm": "^0.2.37"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.2"
+  }
+}
